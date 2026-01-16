@@ -6,7 +6,7 @@ const TopBar = () => {
     { id: 4, name: "About", path: "/" },
   ]
   return (
-    <ul className="bg-black/80 z-40 flex items-center flex-col justify-center gap-2 text-lg sm:text-sm lg:text-base py-2 w-full absolute h-auto top-10 left-0">
+    <ul className="bg-black/80 z-40 flex items-center flex-col justify-center gap-2 text-xs sm:text-sm lg:text-base py-2 w-full absolute h-auto top-15 left-0">
       {links.map((link) => (
         <li className="w-full flex items-center justify-center" key={link.id}>
           <a href={link.path} className="hover:underline hover:bg-black/15 px-10 py-1 tracking-wide uppercase rounded-sm hover:scale-[1.03]">
